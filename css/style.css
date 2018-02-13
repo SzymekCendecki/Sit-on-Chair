@@ -96,10 +96,6 @@ li{
 	padding: 6% 0 6% 4%;
 }
 
-ul li:hover ul{
-	visibility: visible;
-}
-
 /*first section styles*/
 #bgn_section1{
 	background: linear-gradient(to bottom, white, lightgray);
@@ -405,3 +401,11 @@ footer{
 	margin: -2.5% 0 0 88.5%;
 }
 
+/*styles for slider*/
+.slider div{
+    display: none;
+}
+
+.slider .visible2{
+    display: inline-block;
+}
